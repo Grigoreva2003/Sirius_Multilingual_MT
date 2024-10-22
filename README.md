@@ -21,7 +21,7 @@ GUAGE MODELS](https://arxiv.org/pdf/2106.09685)
 ## Модель
 В качестве модели использовалась **[X-ALMA-13B](https://github.com/fe1ixxu/ALMA/tree/7e0dae8a1f40179326c60b1ce7d23f54d938457f)**, [hugging-face X-ALMA](https://huggingface.co/haoranxu/X-ALMA-13B-Pretrain/tree/main) — SotA для 50 языков.
 
-![xalma.png](xalma.png)
+![xalma.png](images/xalma.png)
 
 Для сравнения обучалась модель **[google/gemma-2-9b](https://ai.google.dev/gemma/docs), [hugging-face модели](https://huggingface.co/google/gemma-2-9b)**, выделяющаяся среди остальных мультиязычностью (100+ мультиязычных данных)
 
@@ -34,7 +34,7 @@ GUAGE MODELS](https://arxiv.org/pdf/2106.09685)
 В обучающей выборке порядке 1000 параллельных данных для каждого языка. Валирдация проводилась на 100 рандомно выбранных примерах
 
 ## Результаты
-![results.png](results.png)
+![results.png](images/results.png)
 
 ## Структура репозитория
 ```bash
@@ -46,11 +46,8 @@ GUAGE MODELS](https://arxiv.org/pdf/2106.09685)
 ```
 
 ## Графики
-Ошибка на трейне
-![train_loss.png](train_loss.png)
+![train_loss.png](images/train_loss.png)
 
-Норма градиента
-![grad_norm.png](grad_norm.png)
+![grad_norm.png](images/grad_norm.png)
 
-Learning rate 
-![leraning_rate.png](leraning_rate.png)
+![leraning_rate.png](images/leraning_rate.png)
